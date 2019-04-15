@@ -2,32 +2,78 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  height: 100px;
+  width: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1 {
+  color: #00227b;
+}
+
+.first, .fourth {
+  padding: 50px;
+}
+
+.navbar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: nowrap;
+  background-color: white;
+}
+
+.second, .fourth {
+  background-color: #f5f8ff;
+}
+
+.cols {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.circles {
+  display: flex;
+}
+
+.circle {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+  font-size: 15px;
+  padding: 15px;
+  display: flex;
+  
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  
+  line-height: 500px;
+  
+  background: #00227b;
+  opacity: 0.8;
+
+  font-size: 20px;
   color: white;
+  
+}
+.text {
+  font-size: 10px;
+  /* text-align: center; */
 }
 
-.App-link {
-  color: #61dafb;
+.team-row {
+  text-align: left;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact p, .contact a {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 5px;
 }
+
+.contact a {
+  padding-bottom: 20px;
+}
+
