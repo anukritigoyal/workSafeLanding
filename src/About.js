@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import first from './img/first.jpg'
 
 export default class About extends Component {
     render() {
         return(
             <section id="about">
-                <div className="first container">
+                <div className="first">
                     <div className="col">
                         <h1>
                             A comprehensive workplace harassment reporting tool
@@ -16,18 +17,18 @@ export default class About extends Component {
                         </p> 
                     </div>
                     <div className="col">
-                        
+                        <img src={first} alt="computer" className="first-img"></img>
                     </div>
                 </div>
                 <div className="second">
                     <div>
-                        <h1>
-                            87-94% of individuals do not report <br/> harassment to their HR Departments.
+                        <h1 className="stat1">
+                            87-94% of individuals <br /> do not report harassment <br/> to their HR Departments.
                         </h1>
                     </div>
                     <div>
-                        <h1>
-                            Only 20% of companies have made systemic change to end harassment.
+                        <h1 className="stat2">
+                            Only 20% of companies <br/> have made systemic <br/> change to end harassment.
                         </h1>
                     </div>
                 </div>

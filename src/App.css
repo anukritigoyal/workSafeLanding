@@ -9,9 +9,12 @@
 
 h1 {
   color: #00227b;
+  font-family: 'Noto Serif KR', serif;
+  padding-bottom: 20px;
+  font-size: 40px;
 }
 
-.first, .fourth {
+.first, .third, .fourth, .fifth {
   padding: 50px;
 }
 
@@ -27,11 +30,15 @@ h1 {
 
 .cols {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .circles {
   display: flex;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
 }
 
 .circle {
@@ -56,10 +63,6 @@ h1 {
   color: white;
   
 }
-.text {
-  font-size: 10px;
-  /* text-align: center; */
-}
 
 .team-row {
   text-align: left;
@@ -77,3 +80,58 @@ h1 {
   padding-bottom: 20px;
 }
 
+.profile-pic {
+  height: 250px;
+  width: 250px;
+  align-content: center;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile {
+  padding: 5px;
+}
+
+.profile-text {
+  padding-top: 10px;
+}
+
+#about p, #product p {
+  font-size: 15pt;
+}
+
+.second h1 {
+  padding: 20px;
+}
+
+.first-img {
+  width: 700px;
+  height: 450px;
+  padding: 0 10px;
+}
+
+.first, .fourth {
+  display: flex;
+}
+
+.stat1 {
+  text-align: left;
+  margin-left: 50px;
+}
+
+.stat2 {
+  text-align: right;
+  margin-right: 50px;
+}
+
+.second .stat1 {
+  padding-top: 30px;
+}
+
+.second .stat2 {
+  padding-bottom: 30px;
+}
