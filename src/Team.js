@@ -4,8 +4,6 @@ import anukriti from './img/anukriti.jpeg'
 import sagar from './img/sagar.jpeg'
 import luke from './img/luke.jpg'
 
-// "col-md-6 col-12"
-
 export default class Team extends Component {
     render() {
         return(
@@ -18,7 +16,7 @@ export default class Team extends Component {
                         <div className="profile-text">
                             <h5 className="">Ally Picker</h5>
                             <p>
-                                blurb
+                                Project Manager
                             </p>
                         </div>
                     </div>
@@ -28,7 +26,7 @@ export default class Team extends Component {
                         <div className="profile-text">
                             <h5 className="">Anukriti Goyal</h5>
                             <p>
-                                blurb
+                                Developer
                             </p>
                         </div>
                     </div>
@@ -40,7 +38,7 @@ export default class Team extends Component {
                         <div className="profile-text">
                             <h5 className="">Sagar Surana</h5>
                             <p>
-                                blurb
+                                Developer
                             </p>
                         </div>
                     </div>
@@ -50,19 +48,11 @@ export default class Team extends Component {
                         <div className="profile-text">
                             <h5 className="">Luke Allen</h5>
                             <p>
-                                blurb
+                                Developer
                             </p>
                         </div>
                     </div>
                 </div>
-
-                    {/* <div className="row col-xl-6 col-md-12 p-0 mr-0 ml-0">
-                        <img src={luke} className="profile-pic"></img>
-                        <h5 className="col-md-6 col-12">Luke Allen</h5>
-                        <p>
-                        As a back end developer, he hopes to build scalable systems that are efficiently built and help to improve people’s lives.
-                        </p>
-                    </div> */}
                 </div>
             </section>
         )
