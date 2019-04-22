@@ -1,22 +1,22 @@
 self.__precacheManifest = [
   {
-    "revision": "ad3ead1b83fe7427264d",
-    "url": "/workSafeLanding/static/css/main.8c354983.chunk.css"
+    "revision": "cb6711307f83d697f9cb",
+    "url": "/workSafeLanding/static/css/main.68238794.chunk.css"
   },
   {
-    "revision": "ad3ead1b83fe7427264d",
-    "url": "/workSafeLanding/static/js/main.56025e09.chunk.js"
+    "revision": "cb6711307f83d697f9cb",
+    "url": "/workSafeLanding/static/js/main.1de8d29b.chunk.js"
   },
   {
     "revision": "b3a5c114fcec5099d4cb",
     "url": "/workSafeLanding/static/js/runtime~main.6bee288a.js"
   },
   {
-    "revision": "ab0dd78bb9773329408e",
-    "url": "/workSafeLanding/static/css/2.1f9f44f6.chunk.css"
+    "revision": "2991f544423a331c5c84",
+    "url": "/workSafeLanding/static/css/2.0d7c98fa.chunk.css"
   },
   {
-    "revision": "ab0dd78bb9773329408e",
+    "revision": "2991f544423a331c5c84",
     "url": "/workSafeLanding/static/js/2.9c197bf1.chunk.js"
   },
   {
@@ -36,15 +36,15 @@ self.__precacheManifest = [
     "url": "/workSafeLanding/static/media/anukriti.d9e18a6e.jpeg"
   },
   {
-    "revision": "7c56fb32a547a24647dd33269f7b78ed",
-    "url": "/workSafeLanding/static/media/sagar.7c56fb32.jpeg"
+    "revision": "33935a9bb6b9ba00d6d3497f4f9b26fb",
+    "url": "/workSafeLanding/static/media/sagar.33935a9b.jpeg"
   },
   {
     "revision": "f07b46128419a5e7549cc5fd3cde5959",
     "url": "/workSafeLanding/static/media/luke.f07b4612.jpg"
   },
   {
-    "revision": "1b60b02f5a342f01b261db521c646b23",
+    "revision": "631245b7baff3922a9fe35214a698292",
     "url": "/workSafeLanding/index.html"
   }
 ];
