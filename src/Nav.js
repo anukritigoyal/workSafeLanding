@@ -11,10 +11,10 @@ export default class Nav extends Component {
                         <a className="nav-link" href="#">About</a>
                     </li>
                     <li className="nav-link">
-                        <a className="nav-link" href="#">Product</a>
+                        <a className="nav-link" href="#product">Product</a>
                     </li> 
                     <li className="nav-link">
-                        <a className="nav-link" href="#">Contact Us</a>
+                        <a className="nav-link" href="#team">Team</a>
                     </li>
                 </ul>
             </nav>
